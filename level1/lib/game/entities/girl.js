@@ -44,7 +44,7 @@ EntityGirl = ig.Entity.extend({
 			other.fly = true;
 			ig.game.score += 100;
 			this.kill();
-			window.location = "../level2"
+			window.location = "../level2/index.html"
 
 		}
     },
