@@ -45,7 +45,7 @@ EntityRing = ig.Entity.extend({
 			ig.game.score += 50;
 			ig.game.health = 100;
 			this.kill();
-			window.location = "../gameOver"
+			window.location = "../gameOver/index.html"
 		}
     },
     kill: function(){
