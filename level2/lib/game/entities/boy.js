@@ -45,7 +45,7 @@ EntityBoy = ig.Entity.extend({
 			other.fly = true;
 			ig.game.score += 100;
 			this.kill();
-			window.location = "../level3";
+			window.location = "../level3/index.html";
 
 		}
     },
