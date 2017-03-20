@@ -110,9 +110,7 @@ ig.module(
         	var y = this.startPosition.y;
 			ig.game.health = 0;
 			if(ig.game.lives == 1){
-				ig.game.lives = 3;
-				ig.game.score = 0;
-				ig.game.health = 100;
+				window.location = "https://zdrashid.github.io/Amour/level1/index.html"
 			}
 			else{
 				ig.game.lives--;
